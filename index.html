@@ -7,6 +7,13 @@
     <title>Albion onlne es un MMORPG no lineal en el que elijes tu propia historia</title>
     <link rel="stylesheet" type="text/css" href="flexboxgrid-6.3.1/css/flexboxgrid.css">
     <link rel="stylesheet" type="text/css" href="css/General.css">
+    <link rel="shortcut icon" href="TemplateData/favicon.ico">
+    <link rel="stylesheet" href="TemplateData/style.css">
+    <script src="TemplateData/UnityProgress.js"></script>
+    <script src="Build/UnityLoader.js"></script>
+    <script>
+      var unityInstance = UnityLoader.instantiate("unityContainer", "Build/0.0.1.json", {onProgress: UnityProgress});
+    </script>
 </head>
 <body>
     <div class="row classUp">
@@ -27,8 +34,8 @@
         </div>
     </div>
     <div class="row">
-        <div class="col-lg-12 banner" style="background-image: url(Imagenes/Banner00.png); background-size: 100%;">
-            <img src="https://dummyimage.com/1366x400/000/fff" alt="" style="opacity: 0; width: 100%;">
+        <div class="col-lg-12 webgl-content">
+            <div id="unityContainer" style="width: 1366px; height: 400px;background-color: red;"></div>
         </div>
     </div>
     <div class="row">
