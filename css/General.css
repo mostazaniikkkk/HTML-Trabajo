@@ -11,6 +11,14 @@ a{
     border: white;
 }
 
+t{
+    text-decoration: none;
+    color: #504f4f;
+    font-family: arial;
+    font-size: 85%;
+    border: white;
+}
+
 p{
     font-family: Arial, Helvetica, sans-serif;
     margin: 1%;
@@ -37,6 +45,7 @@ h1{
     margin-top: 4%;
     font-weight: bold;
     font-size: 120%;
+    color: rgb(66, 66, 66);
 }
 
 .RUT{
@@ -78,6 +87,12 @@ h1{
 .descripcionProducto{
     color: #cecece;
 }
+
+.linkMenu{
+    color: #504f4f;
+    margin-top: 32px;
+}
+
 /*Bloque RGB*/
 
 .block {
